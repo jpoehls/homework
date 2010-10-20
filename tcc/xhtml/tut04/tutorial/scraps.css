@@ -1,0 +1,112 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Tutorial Case
+
+   Online Scrapbooks Style Sheet
+   Author: Joshua Poehls
+   Date:   10/19/2010
+
+   Filename:         scraps.css
+   Supporting Files: back.jpg, bullet.jpg
+
+*/
+
+body {
+    margin: 0px;
+    color: brown;
+    background: white url(back.jpg) repeat-y;
+}
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+h1 {
+    border-bottom: 2px solid orange;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    margin-top: 0px;
+}
+
+#outer_container {
+    width: 780px;
+}
+#head {
+    text-align: right;
+}
+
+#links {
+    float: left;
+    width: 200px;
+}
+
+#links ul {
+    list-style-type: none;
+    margin-left: 15px;
+    padding-left: 0px;
+}
+
+#links li.newGroup {
+    margin-top: 15px;
+}
+
+#links a:link {
+    text-decoration: none;
+}
+#links a:visited {
+    text-decoration: none;
+}
+#links a:hover {
+    color: Black;
+    text-decoration: underline;
+}
+#links a:active {
+    text-decoration: none;
+}
+
+#firstp:first-line {
+    font-variant: small-caps;
+}
+#firstp:first-letter {
+    float: left;
+    font-size: 400%;
+    line-height: 0.8;
+}
+
+#article {
+    margin-left: 200px;
+}
+
+#pullout {
+    float: right;
+    width: 250px;
+    margin: 0px 0px 10px 10px;
+    border: 5px outset orange;
+    background-color: ivory;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pullout h2 {
+    text-align: center;
+    background-color: White;
+    margin-top: 0px;
+    border-bottom: 2px solid orange;
+}
+
+#pullout ul {
+    list-style-image: url(bullet.jpg);
+    margin-left: 25px;
+    padding-left: 0px;
+}
+
+address {
+    text-align: center;
+    font-style: normal;
+    font-variant: small-caps;
+    border-top: 2px solid orange;
+    color: orange;
+}

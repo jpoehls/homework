@@ -1,0 +1,94 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 5
+   Tutorial Case
+
+   Style Sheet to create rounded boxes
+   Author: Joshua Poehls
+   Date:   10/19/2010
+
+   Filename:         rounded.css
+   Supporting Files: bottom.png, bottomleft.png, bottomright.png, left.png,
+                     right.png, top.png, topleft.png, topright.png
+
+*/
+
+table.roundedBox {
+    margin: 5px;
+    border-collapse: collapse;
+}
+
+table.roundedBox td {
+    padding: 0px;
+}
+
+table.roundedBox td.topLeft {
+    width: 16px;
+    height: 16px;
+}
+table.roundedBox td.topRight {
+    width: 16px;
+    height: 16px;
+}
+table.roundedBox td.bottomLeft {
+    width: 16px;
+    height: 16px;
+}
+table.roundedBox td.bottomRight {
+    width: 16px;
+    height: 16px;
+}
+
+table.roundedBox td.top {
+    width: auto;
+    height: 16px;
+}
+table.roundedBox td.bottom {
+    width: auto;
+    height: 16px;
+}
+
+
+table.roundedBox td.left {
+    width: 16px;
+    height: auto;
+}
+table.roundedBox td.right {
+    width: 16px;
+    height: auto;
+}
+
+.topLeft {
+    background: url(topleft.png) no-repeat top left;
+}
+.topRight {
+    background: url(topright.png) no-repeat top right;
+}
+.bottomLeft {
+    background: url(bottomleft.png) no-repeat bottom left;
+}
+.bottomRight {
+    background: url(bottomright.png) no-repeat bottom right;
+}
+
+.top {
+    background: url(top.png) repeat-x top;
+}
+.bottom {
+    background: url(bottom.png) repeat-x bottom;
+}
+
+.left {
+    background: url(left.png) repeat-y left;
+}
+.right {
+    background: url(right.png) repeat-y right;
+}
+
+div.roundedBox {
+    margin: 5px;
+    position: relative;
+}
+div.boxContent {
+    padding: 16px;
+}

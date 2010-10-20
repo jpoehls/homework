@@ -1,0 +1,35 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Tutorial Case
+
+   Online Scrapbooks Style Sheet for Printed Output
+   Author: Joshua Poehls
+   Date:   10/19/2010
+
+   Filename:         print.css
+   Supporting Files: none
+
+*/
+
+@page {
+    size: 8.5in 11in portrait;
+    margin: 0.5in;
+}
+
+#head, #links, address {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Sans-Serif;
+}
+
+#sample_image {
+    page-break-before: always;
+    text-align: center;
+}
+#sample_image img {
+    width: 7in;
+    height: 9.1in;
+}

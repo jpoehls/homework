@@ -1,0 +1,106 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 5
+   Tutorial Case
+
+   KPAF General Style Sheet
+   Author: Joshua Poehls
+   Date:   10/19/2010
+
+   Filename:         kpaf.css
+   Supporting Files: none
+
+*/
+
+body {
+    margin: 0px;
+}
+#heading {
+    color: white;
+    background-color: rgb(215, 205, 151);
+    border-bottom: 1px solid rgb(105, 177, 60);
+}
+#page_content {
+    width: 730px;
+    position: absolute;
+    top: 55px;
+    left: 20px;
+}
+
+#right_col {
+    width: 200px;
+    position: absolute;
+    top: 55px;
+    left: 770px;
+}
+
+h1, h2, h3, p {
+    font-family: 'Trebuchet MS' , Arial, Verdana, sans-serif;
+}
+
+address {
+    font-size: 0.65em;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Trebuchet MS' , Arial, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(105, 177, 60);
+    margin: 20px 0px;
+}
+
+
+#heading h2 {
+    color: white;
+    background-color: rgb(105, 177, 60);
+    font-size: 1.1em;
+    padding: 5px 0px 5px 12px;
+    margin: 0px;
+}
+#heading i {
+    font-size: 0.7em;
+}
+
+
+
+#heading ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#heading ul li {
+    display: inline;
+    font-size: 0.7em;
+    font-family: 'Courier New' , monospace;
+    background-color: rgb(215, 205, 151);
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+
+#heading ul li a {
+    text-decoration: none;
+    color: rgb(105, 177, 60);
+}
+#heading ul li a:hover {
+    color: rgb(153, 0, 153);
+}
+
+
+
+#page_content h1 {
+    margin: 0px;
+    padding: 0px;
+}
+#page_content h2 {
+    color: white;
+    background-color: rgb(153, 0, 153);
+    font-size: 1.1em;
+    padding: 5px 0px 5px 12px;
+    margin: 0px;
+}
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 6
+   Tutorial Case
+
+   Web Form Style Sheet
+   Author: Josuha Poehls
+   Date:   10/19/2010
+
+   Filename:         forms.css
+   Supporting Files: none
+
+*/
+
+label.blockLabel {
+    display: block;
+    position: relative;
+    margin: 12px 0px;
+}
+label.blockLabel input {
+    position: absolute;
+    left: 150px;
+}
+
+#donationForm span {
+    color: Red;
+}
+
+label.indentLabel {
+    margin-left: 150px;
+}
+
+#firstName, #lastName, #street {
+    width: 25em;
+}
+#phone, #city {
+    width: 10em;
+}
+#state {
+    width: 3em;
+}
+#zip {
+    width: 7em;
+}
+
+#addressOptions {
+    width: 180px;
+    margin-left: 150px;
+}
+
+#creditCard {
+    position: absolute;
+    left: 150px;
+}
+
+#cardHolder, #cardNumber {
+    width: 25em;
+}
+
+#expMonth {
+    position: absolute;
+    left: 150px;
+}
+#expYear {
+    position: absolute;
+    left: 280px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(237, 233, 223);
+}

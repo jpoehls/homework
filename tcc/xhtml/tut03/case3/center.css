@@ -1,0 +1,59 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 3
+   Case Problem 3
+
+   Midwest Center for Diversity Style Sheet
+   Author: Joshua Poehls
+   Date:   10/18/2010
+
+   Filename:         center.css
+   Supporting Files: none
+
+*/
+
+body
+{
+    color: Black;
+    background-color: rgb(204, 204, 153);
+    margin: 0em;
+}
+
+h1
+{
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+    text-align: center;
+    padding: 0.2em;
+    color: rgb(204, 204, 153);
+    background-color: rgb(102, 102, 204);
+}
+
+em
+{
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(102, 102, 204);
+}
+
+address
+{
+    font-style: normal;
+    text-transform: uppercase;
+    color: rgb(102, 102, 204);
+    text-align: center;
+    padding: 0.5em;
+    border-top: 0.1em solid rgb(102, 102, 204);
+}
+
+#banner
+{
+    float: left;
+}
+
+#pageContent
+{
+    width: 42em;
+    margin-left: 4em;
+}

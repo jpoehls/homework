@@ -1,0 +1,73 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 3
+   Tutorial Case
+
+   Sunny Acres Style Sheet
+   Author: Joshua Poehls
+   Date:   10/18/2010
+
+   Filename:         farm.css
+   Supporting Files: none
+
+*/
+
+body
+{
+    background-color: White;
+    font-family: Arial, Helvetica, Sans-Serif;
+}
+
+h2
+{
+    font-size: 2em;
+    letter-spacing: 0.4em;
+    text-indent: 1em;
+}
+
+h3
+{
+    width: 20em;
+    padding-left: 1em;
+}
+
+address
+{
+    text-align: center;
+    font: normal small-caps 0.8em sans-serif;
+    border-top: 0.5em double green;
+    padding-top: 1em;
+}
+
+a
+{
+    display: block;
+    margin: 0.3em;
+}
+
+#promoimage
+{
+    float: right;
+    margin: 0em 0em 1em 1em;
+}
+
+#outer
+{
+    width: 50em;
+}
+
+#links
+{
+    float: left;
+    width: 10em;
+    background-color: white;
+    border-style: outset;
+    border-width: 0.5em;
+}
+
+#inner
+{
+    margin-left: 12em;
+    padding-left: 1em;
+    border-left: 0.1em solid green;
+}

@@ -1,0 +1,181 @@
+<html>
+<head>
+    <!-- 
+   New Perspectives on HTML and XHTML
+   Tutorial 6
+   Tutorial Case
+
+   The Lighthouse Contributions Page
+   Author: Joshua Poehls
+   Date:   10/19/2010
+
+   Filename:         donations.htm
+   Supporting files: back.jpg, forms.css, left.jpg, lhouse.jpg, main.css
+                     right.jpg
+
+-->
+    <title>Lighthouse Contributions Form</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="forms.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="head">
+        <img src="lhouse.jpg" alt="The Lighthouse" /></div>
+    <div id="links">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">projects</a></li>
+            <li><a href="#">upcoming events</a></li>
+            <li><a href="#">community links</a></li>
+            <li><a href="#">staff</a></li>
+            <li><a href="#">donations</a></li>
+            <li><a href="#">volunteers</a></li>
+            <li><a href="#">contact info</a></li>
+        </ul>
+    </div>
+    <div id="mainContent">
+        <div id="leftColumn">
+            <p>
+                The success of The Lighthouse reflects the dedication and support of members of
+                the community who have helped make our dream a reality. We cannot continue to operate
+                without contributions from people like you.
+            </p>
+            <p>
+                You can make a tax-deductible donation online using your American Express, Discover,
+                Master, or Visa card. Please fill out the form on this page.</p>
+            <p>
+                The Lighthouse is always looking for volunteers. We especially need help in the
+                following areas:</p>
+            <ul>
+                <li><a href="#">Mechanics</a></li>
+                <li><a href="#">Carpenters</a></li>
+                <li><a href="#">Electricians</a></li>
+                <li><a href="#">Cooks</li>
+                <li><a href="#">Computer technicians</a></li>
+                <li><a href="#">Babysitters</a></li>
+                <li><a href="#">Data entry persons</a></li>
+            </ul>
+            <p>
+                and <a href="#">many others</a>. Please consider donating your time and talents
+                to your community and your neighbors.</p>
+            <p>
+                Thank you so much for your generosity!</p>
+            <p>
+                &mdash; Terry Ives<br />
+                &nbsp;&nbsp;&nbsp; Director, <i>The Lighthouse</i></p>
+        </div>
+        <div id="rightColumn">
+            <h1>
+                Donation Form</h1>
+            <p>
+                <span>*</span> indicates required information</p>
+            <form name="donationForm" id="donationForm" action="http://www.thelighthouse.org/cgi-bin/donation" method="post">
+            <input type="hidden" name="eMail" id="eMail" value="donations@thelighthouse.org" />
+            <fieldset id="contact">
+                <legend>Contact Information</legend>
+                <fieldset id="addressOptions">
+                    <legend>Address For</legend>
+                    <label for="homeType">
+                        Home</label>
+                    <input type="radio" id="homeType" name="addressType" value="home" />
+                    <label for="busType">
+                        Business</label>
+                    <input type="radio" id="busType" name="addressType" value="business" />
+                </fieldset>
+                <label class="blockLabel">
+                    First Name<span>*</span>
+                    <input type="text" id="firstName" name="firstName" />
+                </label>
+                <label class="blockLabel">
+                    Last Name<span>*</span>
+                    <input type="text" id="lastName" name="lastName" />
+                </label>
+                <label class="blockLabel">
+                    Phone<span>*</span>
+                    <input type="text" id="phone" name="phone" />
+                </label>
+                <label class="blockLabel">
+                    Street Address<span>*</span>
+                    <input type="text" id="street" name="street" />
+                </label>
+                <label class="indentLabel">
+                    City<span>*</span>
+                    <input type="text" id="city" name="city" value="St. Peters" />
+                </label>
+                <label>
+                    State<span>*</span>
+                    <input type="text" id="state" name="state" maxlength="2" value="MO" />
+                </label>
+                <label>
+                    ZIP<span>*</span>
+                    <input type="text" id="zip" name="zip" maxlength="10" />
+                </label>
+            </fieldset>
+            <fieldset id="donation">
+                <legend>Donation Information</legend>
+                <label class="blockLabel">
+                    Donation Amount<span>*</span>
+                    <input type="text" id="amount" name="amount" /></label>
+                <label class="blockLabel">
+                    Credit Card<span>*</span>
+                    <select id="creditCard" name="creditCard">
+                        <option value="Amex">American Express</option>
+                        <option value="Disc">Discover</option>
+                        <option value="MC">MasterCard</option>
+                        <option value="Visa">Visa</option>
+                    </select>
+                </label>
+                <label class="blockLabel">
+                    Cardholder Name<span>*</span>
+                    <input type="text" id="cardHolder" name="cardHolder" />
+                </label>
+                <label class="blockLabel">
+                    Card Number<span>*</span>
+                    <input type="text" id="cardNumber" name="cardNumber" />
+                </label>
+                <label class="blockLabel">
+                    Expiration Date<span>*</span>
+                    <select id="expMonth" name="expMonth">
+                        <option value="01">January (01)</option>
+                        <option value="02">February (02)</option>
+                        <option value="03">March (03)</option>
+                        <option value="04">April (04)</option>
+                        <option value="05">May (05)</option>
+                        <option value="06">June (06)</option>
+                        <option value="07">July (07)</option>
+                        <option value="08">August (08)</option>
+                        <option value="09">September (09)</option>
+                        <option value="10">October (10)</option>
+                        <option value="11">November (11)</option>
+                        <option value="12">December (12)</option>
+                    </select>
+                    <select id="expYear" name="expYear">
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset id="feedback">
+                <legend>Feedback</legend>
+                <label>
+                    <input type="checkbox" id="volunteer" name="volunteer" />
+                    I'm interested in volunteering at The Lighthouse.
+                </label>
+                <label for="comments" class="blockLabel">
+                    Comments</label>
+                <textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+            </fieldset>
+            <input type="submit" value="Submit Donation" />
+            <input type="reset" value="Cancel" />
+            </form>
+        </div>
+        <address>
+            The Lighthouse &bull; 150 Cavates Rd. &bull; St. Peters, MO 63376 &bull; (636) 555
+            - 4477
+        </address>
+    </div>
+</body>
+</html>

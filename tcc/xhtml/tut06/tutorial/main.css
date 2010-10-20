@@ -1,0 +1,48 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 6
+   Tutorial Case
+
+   The Lighthouse General Style Sheet
+
+   Filename:         main.css
+   Supporting Files: left.jpg, right.jpg
+
+*/
+
+body                   {margin: 0px; font-family: 'Lucida Grande', Verdana, sans-serif}
+
+#head                  {position: absolute; top: 0px; left: 0px; width: 1000px; height: 150px}
+
+#links                 {position: absolute; top: 150px; left: 2px; width: 1000px}
+#links ul              {list-style-type: none; padding: 0px; margin: 0px}
+#links li              {display: inline; float: left; font-size: 14px; margin-right: 0px;
+                        background: url(right.jpg) no-repeat 100% 50%; color: white}
+
+#links a               {display: block; color: white; text-decoration: none;
+                        background: url(left.jpg) no-repeat 0% 50%; padding: 4px 15px}
+#links a:hover         {color: rgb(255, 192, 192)}
+
+#mainContent           {position: absolute; top: 175px; left: 0px; width: 830px}
+
+#leftColumn            {width: 220px; padding-top: 20px; float: left; 
+                        font-size: 12px; background: url(back.jpg) no-repeat top left}
+#leftColumn p          {margin: 5px 5px 5px 15px}
+#leftColumn p a        {color: black}
+
+#leftColumn ul              {list-style-type: disc; margin-left: 30px; padding-left: 0px}
+#leftColumn ul li a         {text-decoration: none; color: black}
+#leftColumn ul li a:visited {color: black}
+#leftColumn ul li a:hover   {text-decoration: underline}
+
+#rightColumn           {width: 590px; float: left; margin-left: 10px; margin-bottom: 10px; 
+                        font-size: 12px}
+#rightColumn h1        {font-size: 26px; text-align: center; letter-spacing: 5px;
+                        margin: 5px 0px; font-weight: normal}
+#rightColumn p         {margin: 0px 0px 2px 0px; padding: 0px; text-align: right}
+#rightColumn p span    {color: red}
+
+address                {clear: left; font-style: normal; font-size: 12px; 
+                        text-align: center; border-top: 2px solid rgb(58,56,8); 
+                        margin-top: 10px; padding: 5px 0px 10px}
+

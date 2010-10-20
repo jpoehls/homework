@@ -1,0 +1,35 @@
+               <h1 class="newshows">Coming Up on KPAF</h1>
+
+               <ul class="newshows">
+                  <li>
+                     <h2 class="newshows">April 11 - 14</h2>
+                     <h3 class="newshows">The Classical Music Connection</h3>
+                     <p>Peter Thiesen shares his eclectic
+                        selections from the world of classical 
+                        music.</p>
+                  </li>
+                  <li>
+                     <h2 class="newshows">April 11</h2>
+                     <h3 class="newshows">Opera Fest</h3>
+                     <p>Excerpts from <i>Turandot</i> by Giacomo Puccini.</p>
+                  </li>
+                  <li>
+                     <h2 class="newshows">April 12</h2>
+                     <h3 class="newshows">Radio U</h3>
+                     <p>Novelist Karen Graves reads from her latest
+                        work, <i>Hellion of Troy</i>.</p>
+                  </li>
+                  <li>
+                     <h2 class="newshows">April 13</h2>
+                     <h3 class="newshows">Science Week</h3>
+                     <p>Prof. Thomas Glass from UND discusses
+                        <i>String Theory and Spooky Action at a Distance</i>.</p>
+                  </li>
+                  <li>
+                     <h2 class="newshows">April 14</h2>
+                     <h3 class="newshows">The Living World</h3>
+                     <p>A panel discussion on 
+                         the <i>Return of the Electric Car</i> and the latest 
+                         in eco-news.</p>
+                  </li>
+               </ul>

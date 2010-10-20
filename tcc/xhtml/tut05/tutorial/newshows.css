@@ -1,0 +1,36 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 5
+   Tutorial Case
+
+   Style Sheet for upcoming new shows
+
+   Filename:         newshows.css
+   Supporting Files: 
+
+*/
+
+
+h1.newshows         {font-size: 0.9em; text-align: center;
+                     color: white; background-color: rgb(153,0,153);
+                     font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+                     margin: 0px; padding: 0px}
+
+h2.newshows         {font-size: 0.9em; color: black; text-align: left; line-height: 0.95;
+                     font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+                     margin: 10px 0px 0px 0px; padding: 0px}
+
+h3.newshows         {font-size: 0.9em; color: black; text-align: left; font-weight: bold;
+                     font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+                     margin: 0px; padding: 0px}
+
+ul.newshows         {font-size: 0.7em; padding: 0px; margin: 0px 0px 0px 5px;
+                     list-style-type: none}
+
+ul.newshows li      {padding: 0px; margin: 0px}
+
+ul.newshows li p    {font-size: 1em; margin: 5px 0px 0px 0px; padding: 0px 0px 0px 5px; 
+                     border-left: 4px solid rgb(255,202,255)}
+
+p.newshows          {font-size: 0.7em; padding: 0px 0px 0px 5px; margin: 5px 0px 0px 0px;
+                      border-left: 4px solid rgb(255,202,255)}

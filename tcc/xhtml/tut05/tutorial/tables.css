@@ -1,0 +1,57 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 5
+   Tutorial Case
+
+   Tables Style Sheet
+   Author: Joshua Poehls
+   Date:   10/19/2010
+
+   Filename:         tables.css
+   Supporting Files: 
+
+*/
+
+table.schedule {
+    border: 10px outset rgb(153, 0, 153);
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 0.7em;
+    width: 100%;
+}
+
+table.schedule th, table.schedule td {
+    border: 1px solid gray;
+}
+
+table.schedule thead {
+    color: White;
+    background-color: rgb(203, 50, 203);
+}
+
+table.schedule col.firstCol {
+    background-color: rgb(255, 255, 192);
+    width: 7%;
+}
+
+table.schedule col.dayCols {
+    width: 13%;
+}
+
+table.schedule thead tr {
+    height: 20px;
+}
+
+table.schedule tbody tr {
+    height: 30px;
+}
+
+table.schedule tbody td {
+    vertical-align: top;
+    padding: 5px;
+}
+
+table.schedule caption {
+    caption-side: top;
+    text-align: right;
+}

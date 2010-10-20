@@ -1,0 +1,53 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 6
+   Case Problem 3
+
+   Author: Joshua Poehls
+   Date:   10/19/2010
+
+   Order Form Style Sheet
+ 
+
+   Filename:         orderform.css
+   Supporting Files: 
+
+*/
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    margin: 0 0 10px 0;
+    background-color: ivory;
+    border: 5px inset rgb(255, 192, 192);
+}
+
+legend {
+    color: Red;
+    letter-spacing: 3px;
+}
+
+label {
+    display: block;
+    position: relative;
+    width: 400px;
+    margin: 5px 0 10px 0;
+}
+
+label#qLabel {
+    margin-top: 80px;
+}
+
+select {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    font-size: 12px;
+}
+
+input {
+    margin-left: 250px;
+}

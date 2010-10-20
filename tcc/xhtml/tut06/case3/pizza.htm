@@ -1,0 +1,187 @@
+<html>
+<head>
+    <!-- 
+   New Perspectives on HTML and XHTML
+   Tutorial 6
+   Case Problem 3
+
+   Pizza Order Form
+   Author: Joshua Poehls
+   Date:   10/19/2010
+
+   Filename:         pizza.htm
+   Supporting files: buttonball.jpg, leftball.jpg, orderform.css, rb.css,
+                     redball.jpg, rightball.jpg
+-->
+    <title>Pizza Order Form</title>
+    <link href="rb.css" rel="stylesheet" type="text/css" />
+    <link href="orderform.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="heading">
+        <img src="redball.jpg" alt="Red Ball Pizza" />
+    </div>
+    <div id="links">
+        <ul>
+            <li><a href="#">home page</a></li>
+            <li><a href="#">menu</a></li>
+            <li><a href="#">directions</a></li>
+            <li><a href="#">coupons</a></li>
+            <li><a href="#">online ordering</a></li>
+            <li><a href="#">shopping cart</a></li>
+            <li><a href="#">testimonials</a></li>
+        </ul>
+    </div>
+    <div id="pageContent">
+        <div id="leftCol">
+            <p>
+                Please select the size, crust, toppings and quantity for your pizza order. Don't
+                forget to add extra breadsticks and chicken wings!</p>
+            <p>
+                Click the <em>Add to Cart</em> button to add your selected items to your shopping
+                cart.</p>
+            <p>
+                For preferred lunch and dinner delivery times, please phone or fax orders in advance.</p>
+            <p>
+                Phone:
+                <br />
+                (386) 555 - 7499</p>
+            <p>
+                Fax:
+                <br />
+                (386) 555 - 7498</p>
+        </div>
+        <div id="rightCol">
+            <h1>
+                Online Ordering</h1>
+            <form>
+            <fieldset id="pizzaType">
+                <legend>Build your Pizza</legend>
+                <label>
+                    Size
+                    <select>
+                        <option value="12">12" Regular</option>
+                        <option value="14" selected="selected">14" Large</option>
+                        <option value="16">16" Extra Large</option>
+                        <option value="20">20" Family Size</option>
+                    </select>
+                </label>
+                <label>
+                    Crust
+                    <select>
+                        <option value="thin">Thin</option>
+                        <option value="thick">Thick</option>
+                        <option value="hand" selected="selected">Hand Tossed</option>
+                        <option value="dish">Deep Dish</option>
+                    </select>
+                </label>
+                <label>
+                    Toppings (select all that apply)
+                    <select size="5">
+                        <optgroup label="Vegetables and Fruits">
+                            <option>Diced mango</option>
+                            <option>Artichokes</option>
+                            <option>Broccoli</option>
+                            <option>Caramelized onions</option>
+                            <option>Fire roasted red peppers</option>
+                            <option>Fresh mushrooms</option>
+                            <option>Green peppers</option>
+                            <option>Green olives</option>
+                            <option>Spinach</option>
+                            <option>Grilled zucchini</option>
+                            <option>Hot banana peppers</option>
+                            <option>Jalapeno peppers</option>
+                            <option>Kalamata olives</option>
+                            <option>Pineapple</option>
+                            <option>Red onions</option>
+                            <option>Roasted garlic</option>
+                            <option>Roma tomatoes</option>
+                            <option>Sun-dried tomatoes</option>
+                        </optgroup>
+                        <optgroup label="Meats">
+                            <option>Steak Strips</option>
+                            <option>Anchovies</option>
+                            <option>Bacon Topping</option>
+                            <option>Bacon Strips</option>
+                            <option>Mesquite Chicken</option>
+                            <option>Ground Beef</option>
+                            <option>Italian Ham</option>
+                            <option>Italian Sausage</option>
+                            <option>Pepperoni</option>
+                            <option>Salami</option>
+                        </optgroup>
+                        <optgroup label="Cheeses">
+                            <option>Provolone cheese</option>
+                            <option>Extra cheese</option>
+                            <option>Feta cheese</option>
+                            <option>Four cheese blend</option>
+                            <option>Goat cheese</option>
+                            <option>Mozzarella cheese</option>
+                            <option>Parmesan cheese</option>
+                        </optgroup>
+                    </select>
+                </label>
+                <label id="qLabel">
+                    Quantity
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </label>
+                <input type="image" src="buttonball.jpg" />
+            </fieldset>
+            <fieldset id="extras">
+                <legend>Extras</legend>
+                <label>
+                    Breadsticks
+                    <select>
+                        <option value="6">6 piece</option>
+                        <option value="12">12 piece</option>
+                        <option value="18">18 piece</option>
+                    </select>
+                </label>
+                <label>
+                    Cheesy Bread
+                    <select name="cbread">
+                        <option value="6">6 piece</option>
+                        <option value="12">12 piece</option>
+                        <option value="18">18 piece</option>
+                    </select>
+                </label>
+                <label>
+                    Chicken Wings
+                    <select>
+                        <option value="6">6 piece</option>
+                        <option value="12" selected="selected">12 piece</option>
+                        <option value="18">18 piece</option>
+                        <option value="24">24 piece</option>
+                    </select>
+                </label>
+                <label>
+                    Barbecue Wings
+                    <select name="bwings">
+                        <option value="6">6 piece</option>
+                        <option value="12" selected="selected">12 piece</option>
+                        <option value="18">18 piece</option>
+                        <option value="24">24 piece</option>
+                    </select>
+                </label>
+                <input type="image" src="buttonball.jpg" />
+            </fieldset>
+            </form>
+        </div>
+        <address>
+            Red Ball Pizza &bull; 811 Beach Drive &bull; Ormond Beach, FL 32175 &bull; (386)
+            555 - 7499
+        </address>
+    </div>
+</body>
+</html>

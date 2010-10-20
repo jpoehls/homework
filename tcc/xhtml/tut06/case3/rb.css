@@ -1,0 +1,52 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 6
+   Case Problem 3
+
+   Red Ball Pizza Style Sheet
+ 
+
+   Filename:         rb.css
+   Supporting Files: 
+
+*/
+
+body {margin: 0px; font-family: Arial, Helvetica, sans-serif}
+#heading {position: absolute; top: 0px; left: 10px; height: 75px}
+#links   {position: absolute; top: 60px; left: 10px}
+#links ul        {list-style-type: none; padding: 0px; margin: 5px 0px 0px 5px}
+#links li        {display: inline; float: left; font-size: 14px; margin-right: 5px; 
+                  background: url(rightball.jpg) no-repeat 100% 50%}
+
+#links a         {display: block; color: white; text-decoration: none;
+                  background: url(leftball.jpg) no-repeat 0% 50%; 
+                  padding: 10px 15px}
+
+#links a:visited {color: white}
+
+#links a:hover   {color: yellow}
+
+#pageContent     {position: absolute; top: 105px; left: 10px; width: 700px}
+
+#leftCol         {width: 150px; float: left}
+#leftCol p       {font-size: 12px; color: red; margin: 10px}
+#leftCol p em    {font-style: normal; font-weight: bold}
+
+#rightCol        {width: 525px; float: left; font-size: 12px; padding-left: 10px;
+                  border-left: 2px solid red}
+#rightCol h1     {font-size: 24px; text-align: center; color: red; font-weight: normal;
+                  letter-spacing: 5px; 
+                  margin: 0px; padding: 0px}
+
+address          {clear: left; text-align: center; width: 100%; font-style: 
+                  normal; color: red; font-size: 10px; border-top: 2px solid red; 
+                  padding: 5px 0px 10px}
+
+
+
+
+
+
+
+
+

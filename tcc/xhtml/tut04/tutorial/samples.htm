@@ -1,0 +1,118 @@
+<html>
+<head>
+    <!-- 
+   New Perspectives on HTML and XHTML
+   Tutorial 4
+   Tutorial Case
+
+   Online Scrapbooks: Sample Page
+   Author: Joshua Poehls
+   Date:   10/19/2010
+
+   Filename:         samples.htm
+   Supporting files: back.jpg, sample.jpg, scraps.css, scraps.jpg
+-->
+    <title>Samples from Online Scrapbooks</title>
+    <link href="print.css" rel="Stylesheet" type="text/css" media="print, projection" />
+    <link href="scraps.css" rel="stylesheet" type="text/css" media="screen, tv, tty" />
+    <style type="text/css" media="print, projection">
+        .notes {
+            display: list-item;
+            list-style-image: url(bullet.jpg);
+            font-family: Sans-Serif;
+            font-size: 12pt;
+            margin: 20px;
+        }
+    </style>
+    <style type="text/css" media="screen, tv, tty">
+        .notes {
+            font-family: Sans-Serif;
+            font-size: 8pt;
+            color: brown;
+            background-color: ivory;
+            border: 3px inset rgb(212, 212, 212);
+            width: 130px;
+            height: 90px;
+            overflow: auto;
+        }
+        .notes p {
+            margin: 5px;
+        }
+        #note1 {
+            position: absolute;
+            left: 600px;
+            top: 120px;
+        }
+        #note2 {
+            position: absolute;
+            left: 170px;
+            top: 400px;
+        }
+        #note3 {
+            position: absolute;
+            left: 570px;
+            top: 550px;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer_container">
+        <h1 id="head">
+            <img src="scraps.jpg" alt="Online Scrapbooks" width="314" height="75" />
+        </h1>
+        <div id="links">
+            <ul>
+                <li class="newGroup"><a href="#">Home</a></li>
+                <li><a href="#">Getting Started</a></li>
+                <li><a href="#">Scrapbooking Tips</a></li>
+                <li><a href="#">Supply List</a></li>
+                <li><a href="#">Glossary</a></li>
+                <li><a href="#">Online Classes</a></li>
+                <li><a href="#">Sample Pages</a></li>
+                <li class="newGroup"><a href="#">Online Store</a></li>
+                <li><a href="#">Shopping Cart</a></li>
+                <li><a href="#">Checkout</a></li>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Wish List</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li class="newGroup"><a href="#">About Us</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="article">
+            <h2>
+                Samples from Online Scrapbooks</h2>
+            <div id="note1" class="notes">
+                <p>
+                    Paste cut-out letters and words in your scrapbook to create a 3D effect. Online
+                    Scrapbooks sells professionally designed cut-out letters, words, and phrases for
+                    all occasions.
+                </p>
+            </div>
+            <div id="note2" class="notes">
+                <p>
+                    Clippings, flyers, programs, and other memorabilia are valuable sources of information
+                    that can enhance your scrapbook pages. Make sure that any material is copied to
+                    acid-free paper. Newspaper clippings are especially susceptible to deterioration.
+                </p>
+            </div>
+            <div id="note3" class="notes">
+                <p>
+                    Photographic cut-outs and textured backgrounds can add visual interest to your pages.
+                    See the online store for our wide variety of textured and embossed papers.
+                </p>
+            </div>
+            <div id="sample_image">
+                <img src="sample.jpg" alt="sample page" width="474" height="616" />
+            </div>
+            <address>
+                Online Scrapbooks &#183; 212 Sunset Drive &#183; Richmond, KY 40475 &#183; (859)
+                555-8100
+            </address>
+        </div>
+    </div>
+</body>
+</html>
